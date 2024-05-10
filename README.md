@@ -1,5 +1,5 @@
 # IHGCL
-Heterogeneous Graph Contrastive learning via Intents behind Meta-paths for Recommendation
+Intent-Guided Heterogeneous Graph Contrastive Learning for Recommendation
 
 We will organize the complete code and upload it after the paper is accepted for publication.
 ### Enviroments
