@@ -1,6 +1,5 @@
 # IHGCL
-Intent-Guided Heterogeneous Graph Contrastive Learning for Recommendation
-[My paper - arXiv link](https://arxiv.org/abs/2407.17234)
+[Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation](https://arxiv.org/abs/2407.17234)
 
 We will organize the complete code and upload it after the paper is accepted for publication.
 ### Enviroments
