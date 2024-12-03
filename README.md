@@ -4,7 +4,7 @@
 We will organize the complete code and upload it after the paper is accepted for publication.
 
 ## Model Architecture
-![IHGCL Model](model.pdf)
+![IHGCL Model](model_IHGCL.pdf)
 
 ### Enviroments
 - python==3.10
