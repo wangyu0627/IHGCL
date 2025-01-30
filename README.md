@@ -22,7 +22,7 @@ python main.py --dataset=amazon --device='cuda:0'
 If you find this useful for your research, please kindly cite the following paper:
 
 ```bibtex
-@ARTICLE{10857594,
+@article{2025IHGCL,
   author={Sang, Lei and Wang, Yu and Zhang, Yi and Zhang, Yiwen and Wu, Xindong},
   journal={IEEE Transactions on Knowledge and Data Engineering}, 
   title={Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation}, 
