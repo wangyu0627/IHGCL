@@ -17,3 +17,15 @@ We will organize the complete code and upload it after the paper is accepted for
 ```
 python main.py --dataset=amazon --device='cuda:0'
 ```
+## Citation
+
+If you find this useful for your research, please kindly cite the following paper:
+
+```bibtex
+@ARTICLE{10857594,
+  author={Sang, Lei and Wang, Yu and Zhang, Yi and Zhang, Yiwen and Wu, Xindong},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation}, 
+  year={2025},
+  pages={1-14},
+  doi={10.1109/TKDE.2025.3536096}}
