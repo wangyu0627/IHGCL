@@ -114,8 +114,8 @@ class GCRec(nn.Module):
         item_embedding_1, item_embedding_2 = (item_embeddings + hete_item_embedding[0],
                                               item_embeddings + hete_item_embedding[1])
 
-        all_user_embeddings, all_item_embeddings = (user_embeddings + 0.000 * user_embedding_2 + 0.000 * user_embedding_2,
-                                                   item_embeddings + 0.000 * item_embedding_1 + 0.000 * item_embedding_2)
+        all_user_embeddings, all_item_embeddings = (user_embeddings + 1e-5 * user_embedding_2 + 1e-5 * user_embedding_2,
+                                                   item_embeddings + 1e-5 * item_embedding_1 + 1e-5 * item_embedding_2)
 
         # intra-contrast
         user_loss = []
