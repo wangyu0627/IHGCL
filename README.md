@@ -1,7 +1,7 @@
 # IHGCL: Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation
 Lei Sang, Yu Wang, Yi Zhang, Yiwen Zhang* and Xindong Wu. 
 
- This is the PyTorch implementation by <a href='https://github.com/wangyu0627'>@WangYu</a> for IHGCL model proposed in this [paper][https://ieeexplore.ieee.org/document/10857594]
+This is the PyTorch implementation by <a href='https://github.com/wangyu0627'>@WangYu</a> for IHGCL model proposed in this paper[https://ieeexplore.ieee.org/document/10857594][TKDE 2025]
 
 We will organize the complete code and upload it after the paper is accepted for publication.
 
