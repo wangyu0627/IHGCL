@@ -23,9 +23,10 @@ If you find this useful for your research, please kindly cite the following pape
 
 ```bibtex
 @article{2025IHGCL,
+  title={Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation},
   author={Sang, Lei and Wang, Yu and Zhang, Yi and Zhang, Yiwen and Wu, Xindong},
-  journal={IEEE Transactions on Knowledge and Data Engineering}, 
-  title={Intent-guided Heterogeneous Graph Contrastive Learning for Recommendation}, 
+  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE)},
   year={2025},
-  pages={1-14},
-  doi={10.1109/TKDE.2025.3536096}}
+  volume={37},
+  number={4},
+  pages={1915-1929}}
