@@ -17,6 +17,17 @@ We will organize the complete code and upload it after the paper is accepted for
 ```
 python main.py --dataset=amazon --device='cuda:0'
 ```
+### 🔧 Optimal Hyperparameters for IHGCL on Different Datasets
+The model parameters have not been saved for a long time. If there are any errors, please contact me via the issue.
+| Dataset         | ssl_lambda | intra_lambda | ib_lambda | enc_num_layer | mask_rate | dec_num_layer | remask_rate | num_remasking | GCN_layer | epochs |
+|-----------------|------------|--------------|-----------|---------------|-----------|---------------|-------------|---------------|-----------|--------|
+| **Yelp**         | 0.05       | 0.005        | 0.001     | 1         | 0.2        | 1         | 0.2          | 2           | 3          | 50     |
+| **LastFM**       | 0.02       | 0.005        | 0.001     | 1         | 0.1        | 1         | 0.3          | 1           | 2          | 150    |
+| **Amazon**       | 0.02       | 0.001        | 0.001     | 1         | 0.0        | 1         | 0.1          | 1           | 2          | 80     |
+| **Douban Book**  | 0.05       | 0.005        | 0.001     | 1         | 0.1        | 1         | 0.6          | 1           | 2          | 50     |
+| **Douban Movie** | 0.05       | 0.005        | 0.001     | 1         | 0.4        | 1         | 0.8          | 1           | 2          | 80     |
+| **Movielens**    | 0.05       | 0.010        | 0.001     | 1         | 0.3        | 1         | 0.6          | 1           | 2          | 200    |
+
 ## Citation
 
 If you find this useful for your research, please kindly cite the following paper:
